@@ -1,0 +1,29 @@
+<div class="row">
+	<div class="col-md-6">
+		<div class="row">
+			<f:if condition="{news.images.originalResource.publicUrl}">
+				<f:image src="{news.images.originalResource.publicUrl}" />
+			</f:if>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<f:if condition="{news.authorname}">
+			<p><i class="fa fa-fw fa-user"></i> {news.authorname}</p>
+		</f:if>
+		<f:if condition="{news.date}">
+			<p><i class="fa fa-fw fa-calendar"></i> <f:format.date format="{f:translate(key:'dateformat.list')}">{news.date}</f:format.date></p>
+		</f:if>
+		<f:if condition="{news.teaser}">
+			<blockquote>
+				<f:format.html>{news.teaser}</f:format.html>
+			</blockquote>
+		</f:if>
+	
+		<f:format.html>{news.bodytext}</f:format.html>
+
+		<f:if condition="{settings.pid_back}">
+			<f:link.page pageUid="{settings.pid_back}">&laquo; <f:translate key="back_to_list" /></f:link.page><br />
+		</f:if>
+	</div>
+</div>

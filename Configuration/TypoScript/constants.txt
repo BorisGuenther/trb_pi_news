@@ -1,0 +1,14 @@
+# customsubcategory=trb_pi_news=News
+
+plugin.tx_trbpinews {
+	view {
+		# cat=TRB Common: Paths/trb_pi_news/10; type=string; label=Templates Root Path;
+		templateRootPath = EXT:trb_pi_news/Resources/Private/Templates/
+
+		# cat=TRB Common: Paths/trb_pi_news/20; type=string; label=Partials Root Path;
+		partialRootPath = EXT:trb_pi_news/Resources/Private/Partials/
+
+		# cat=TRB Common: Paths/trb_pi_news/30; type=string; label=Layouts Root Path;
+		layoutRootPath = EXT:trb_pi_news/Resources/Private/Layouts/		
+	}
+}

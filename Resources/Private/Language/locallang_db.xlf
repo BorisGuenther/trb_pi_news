@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-15T16:15:37Z" product-name="trb_pi_news">
+		<header/>
+		<body>
+			<!-- News -->
+			<trans-unit id="tx_trbpinews_domain_model_news"><source>News</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.header"><source>Header</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.teaser"><source>Teaser</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.date"><source>Creation</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.authorname"><source>Name</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.authormail"><source>Mail</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.archivedate"><source>Archived</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.bodytext"><source>Bodytext</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.images"><source>Images</source></trans-unit>
+			<trans-unit id="tx_trbpinews_domain_model_news.categories"><source>Categories</source></trans-unit>
+			
+			<!-- Palettes -->
+			<trans-unit id="palette.author"><source>Author</source></trans-unit>
+			<trans-unit id="palette.date"><source>Date</source></trans-unit>
+			
+			<!-- Flexform -->
+			<trans-unit id="flex.options"><source>Options</source></trans-unit>
+			<trans-unit id="flex.mode"><source>Mode</source></trans-unit>
+			<trans-unit id="flex.list"><source>List</source></trans-unit>
+			<trans-unit id="flex.detail"><source>Detail</source></trans-unit>
+			<trans-unit id="flex.storage_page"><source>Storage page</source></trans-unit>
+			<trans-unit id="flex.detail_page"><source>Detail page</source></trans-unit>
+			<trans-unit id="flex.back_page"><source>Back page</source></trans-unit>
+			<trans-unit id="flex.date"><source>Date</source></trans-unit>
+			<trans-unit id="flex.title"><source>Title</source></trans-unit>
+			<trans-unit id="flex.sorting"><source>Sorting</source></trans-unit>
+			<trans-unit id="flex.sorting.asc"><source>Ascending</source></trans-unit>
+			<trans-unit id="flex.sorting.desc"><source>Descending</source></trans-unit>
+			<trans-unit id="flex.archived"><source>Archived</source></trans-unit>
+			<trans-unit id="flex.archived.all"><source>All</source></trans-unit>
+			<trans-unit id="flex.archived.active"><source>Non archived only</source></trans-unit>
+			<trans-unit id="flex.archived.archived"><source>Archived only</source></trans-unit>
+			<trans-unit id="flex.layout"><source>Layout</source></trans-unit>
+			<trans-unit id="flex.layout.default"><source>Default</source></trans-unit>
+		</body>
+	</file>
+</xliff>

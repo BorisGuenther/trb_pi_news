@@ -1,0 +1,14 @@
+'news' => array(
+	'0' => array(
+		'GETvar' => 'tx_trbpinews_news[controller]',
+		'valueMap' => array(
+			'news' => 'News',
+		),
+	),
+	'1' => array(
+		'GETvar' => 'tx_trbpinews_news[action]',
+	),
+	'2' => array(
+		'GETvar' => 'tx_trbpinews_news[news]',
+	),
+),

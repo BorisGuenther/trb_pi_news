@@ -1,0 +1,7 @@
+plugin.tx_trbpinews {
+	view {
+		templateRootPath = {$plugin.tx_trbpinews.view.templateRootPath}
+		partialRootPath = {$plugin.tx_trbpinews.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_trbpinews.view.layoutRootPath}
+	}
+}
